@@ -16,6 +16,9 @@ html, body {
     background-image: linear-gradient(#5f2c82, #49a09d);
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -24,16 +27,15 @@ section {
     height: 515px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    overflow: hidden;
 
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
+    transform: translate(-50%, -50%); */
 }
 
 #imagem {
-    display: block;
     background: #5f2c82 url(../imagens/imagem-login.jpg);
     background-size: cover;
     height: 200px;
@@ -45,7 +47,6 @@ section {
 }
 
 #formulario > p {
-    display: block;
     font-size: 0.82em;
     line-height: 1.5;
     padding: 8px;
@@ -59,7 +60,6 @@ form > p {
 
 #ie-mail {
     background-color: #49a09d81;
-    position: relative;
     width: 230px;
     padding: 10px;
     border-radius: 5px;
@@ -67,7 +67,6 @@ form > p {
 
 #isenha {
     background-color: #49a09d81;
-    position: relative;
     width: 230px;
     padding: 10px;
     border-radius: 5px;
