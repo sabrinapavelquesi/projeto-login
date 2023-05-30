@@ -79,7 +79,7 @@ section {
 .campo > input {
     background-color: #5bc4c0;
     font-size: 1em;
-    width: calc(100% - 44.5px);
+    width: calc(100% - 45px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
