@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="styles/styleall.css">
+    <link rel="stylesheet" href="styles/style-first-mobile.css">
 </head>
 
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                <!-- <img src="imagens/imagem-login.jpg" alt="imagem login"> -->
+                <!-- FOTO -->
             </div>
             <div id="formulario">
                 <h1>Login</h1>
@@ -22,7 +22,21 @@
                     ambiente.
                 </p>
                 <form action="login.php" method="post">
-                    
+                    <p>
+                        <label for="ie-mail"></label>
+                        <input type="email" name="e-mail" id="ie-mail" required placeholder="seu e-mail">
+                    </p>
+                    <p>
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8"> 
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar" id="entrar">
+                    </p>
+                    <p>
+                        <input type="submit" value="Esqueci a senha" id="esqueci-a-senha">
+
+                    </p>
                 </form>
             </div>
         </section>
