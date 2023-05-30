@@ -60,12 +60,35 @@ section {
 .campo {
     background-color: #5f2c82;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid #5f2c82;
 }
 
 .campo > label {
     display: none;
+}
+
+.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    background-color: #5bc4c0;
+    font-size: 1em;
+    width: calc(100% - 44.5px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 #entrar {
