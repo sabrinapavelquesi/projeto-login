@@ -84,7 +84,9 @@ section {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
+    transform: translateY(0px);
+    float: right;
+    outline: none;
 }
 
 .campo > input:focus-within {
