@@ -26,7 +26,7 @@
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(#5f2c82, #49a09d);
+        background-image: linear-gradient9(#5f2c82, #49a09d);
     }
 
     section {
@@ -40,7 +40,12 @@
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
+        font-size: 1.2em;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
     }
 }

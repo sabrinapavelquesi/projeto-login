@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles/style-first-mobile.css">
     <link rel="stylesheet" href="styles/media-query.css" media="screen and (orientation:landscape)">
 </head>
@@ -23,21 +24,22 @@
                     ambiente.
                 </p>
                 <form action="login.php" method="post">
-                    <p>
-                        <label for="ie-mail"></label>
-                        <input type="email" name="e-mail" id="ie-mail" required placeholder="seu e-mail">
-                    </p>
-                    <p>
-                        <label for="isenha"></label>
-                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8"> 
-                    </p>
-                    <p>
-                        <input type="submit" value="Entrar" id="entrar">
-                    </p>
-                    <p>
-                        <input type="submit" value="Esqueci a senha" id="esqueci-a-senha">
-
-                    </p>
+                    <div class="campo"">
+                        <span class="material-symbols-outlined">Account_Circle</span>
+                        <label for="ie-mail">email</label>
+                        <input type="email" name="e-mail" id="ie-mail" required placeholder="seu e-mail" autocomplete="email">
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">password</span>
+                        <label for="isenha">senha</label>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8" maxlength="16" autocomplete="current-password"> 
+                    </div>
+                    <input type="submit" value="Entrar" id="entrar">
+                    <a href="#" id="esqueci-a-senha">
+                        Esqueci a senha 
+                        <span class="material-symbols-outlined">Forward_to_Inbox</span>
+                    </a>
+                    
                 </form>
             </div>
         </section>
