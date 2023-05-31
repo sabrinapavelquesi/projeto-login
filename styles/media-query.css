@@ -1,10 +1,6 @@
 @charset 'UTF-8';
 
 @media screen and (orientation: landscape) {
-    body {
-        background-image: linear-gradient(to top, #faadd2, #b8f0d7);
-    }
-
     section {
         width: 80vw;
         height:300px;
