@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-@media screen and (max-width: 767) and (orientation: landscape) {
+@media screen and (max-height: 515px) and (orientation: landscape) {
     section {
         width: 80vw;
         height:300px;
