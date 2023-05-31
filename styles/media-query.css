@@ -1,5 +1,25 @@
 @charset 'UTF-8';
 
+@media screen and (max-width: 767) and (orientation: landscape) {
+    section {
+        width: 80vw;
+        height:300px;
+    }
+
+    #imagem {
+        display: block;
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    #formulario {
+        display: block;
+        float: right;
+        width: 65%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     body {
         background-image: linear-gradient(to top, #5f2c82, #49a09d);
