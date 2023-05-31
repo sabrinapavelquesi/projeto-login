@@ -4,6 +4,13 @@
     Verde: #49a09d
     Lilás: #5f2c82 */
 
+    :root {
+        --verde1: #2B8C21;
+        --verde2: #DDF1E8;
+        --branco: #ffffff;
+        --rosa: #fd61aa;
+    }
+
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +20,7 @@
 
 
 html, body {
-    background-color: #49a09d;
+    background-color: #faadd2;
     height: 100%;
     width: 100%;
     display: flex;
@@ -22,7 +29,7 @@ html, body {
 }
 
 section {
-    background-color: white;
+    background-color: var(--branco);
     width: 250px;
     height: 515px;
     border-radius: 20px;
@@ -39,7 +46,7 @@ section {
 }
 
 #imagem {
-    background: #5f2c82 url(../imagens/imagem-login.jpg);
+    background: url(../imagens/imagem-login.jpg);
     background-size: cover;
     height: 200px;
 }
@@ -58,11 +65,11 @@ section {
 }
 
 .campo {
-    background-color: #5f2c82;
+    background-color: var(--rosa);
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
-    border: 2px solid #5f2c82;
+    border: 2px solid var(--rosa);
 }
 
 .campo > label {
@@ -70,14 +77,14 @@ section {
 }
 
 .campo > span {
-    color: white;
+    color: var(--branco);
     font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 3px;
 }
 
 .campo > input {
-    background-color: #5bc4c0;
+    background-color: #f8ddea;
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
@@ -90,13 +97,13 @@ section {
 }
 
 .campo > input:focus-within {
-    background-color: white;
+    background-color: var(--branco);
 }
 
 #entrar {
     font-size: 1em;
-    background-color: #49a09d;
-    color: white;
+    background-color: var(--verde1);
+    color: var(--branco);
     width: 100%;
     height: 40px;
     border: none;
@@ -104,7 +111,7 @@ section {
 }
 
 #entrar:hover {
-    background-color: #2a5e5c;
+    background-color: #17500f;
     cursor: pointer;
 }
 
@@ -116,15 +123,15 @@ section {
     padding-top: 5px;
     margin-top: 5px;
     text-align: center;
-    background-color: white;
-    color: #2a5e5c;
-    border: 1px solid #6dcecb;
+    background-color: var(--branco);
+    color: #17500f;
+    border: 1px solid var(--verde1);
     border-radius: 5px;
     text-decoration: none;
 }
 
 #esqueci-a-senha:hover {
-    background-color: #65c5c2;
+    background-color: var(--verde2);
 }
 
 #esqueci-a-senha > span {
